@@ -3,10 +3,10 @@ import Foundation
 typealias CallID = UUID
 
 struct Call {
-    let id: CallID
-    let incomingUser: User
-    let outgoingUser: User
-    let status: CallStatus
+	let id: CallID
+	let incomingUser: User
+	let outgoingUser: User
+	var status: CallStatus
 }
 
 enum CallEndReason: Equatable {
